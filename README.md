@@ -15,7 +15,7 @@ public class App extends Application {
 }
 ```
 ## Install Gcc
-传入 gcc zip file 的文件路径，您可以吧gcc.zip放到 assets， 或者服务器轴再下载到本地然后安装，以减少apk大小
+传入 gcc zip file 的文件路径，您可以吧gcc.zip放到 assets， 或者服务器中再下载到本地然后安装，以减少apk大小
 * 您应该在编译前安装好 Gcc
 ```java
  CCppEngine.installGcc(this,new File("/storage/emulated/0/Android/data/com.xiaoyv.ccompileengine/files/gcc.zip"),new CCppEngine.OnInstallListener(){
