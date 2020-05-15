@@ -1,0 +1,3 @@
+rootProject.name='CCompileEngine'
+include ':app'
+include ':ccompile'
