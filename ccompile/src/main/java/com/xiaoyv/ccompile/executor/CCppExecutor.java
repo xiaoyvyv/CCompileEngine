@@ -135,7 +135,7 @@ public class CCppExecutor {
                     executeListener.printStdout(line + "\n");
                 }
             } catch (Exception e) {
-                e.printStackTrace();
+                //e.printStackTrace();
             }
             Log.e("输出", "完成");
             OutFinishFlag = true;
@@ -165,7 +165,7 @@ public class CCppExecutor {
                     executeListener.printStderr(new Throwable(line + "\n"));
                 }
             } catch (Exception e) {
-                e.printStackTrace();
+                //e.printStackTrace();
             }
             Log.e("错误", "完成");
             ErrFinishFlag = true;

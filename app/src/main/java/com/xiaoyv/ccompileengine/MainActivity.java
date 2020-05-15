@@ -43,7 +43,6 @@ public class MainActivity extends AppCompatActivity {
         List<File> files = new ArrayList<>();
         files.add(cFile);
 
-
         Log.e("==========", "======================================================================");
         CCppEngine.getCCompiler().compile(files, new CompileCallback() {
             @Override
